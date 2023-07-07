@@ -33,10 +33,12 @@ py -m pip install -r requirements.txt
 ### Команда для запуска интерактивной консоли
 ```commandline
 python manage.py shell_plus --ipython
+
 // внутри консоли
 %load_ext autoreload
 %autoreload 2
 ```
+
 ### Основные понятия веб разработки:
 
 **клиент** - в общем смысле, машина, которая делает запросы
